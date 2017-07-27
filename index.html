@@ -2,10 +2,16 @@
 <html>
     <head>
         <style>
-            body {
-                width: 100%;
+            * {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                outline: 0;
+                font-size: 105%;
+                vertical-align: baseline;
             }
             #wrapper {
+                margin: auto;
                 width: 70%;
             }
             h1 {
@@ -25,7 +31,7 @@
                     return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null
                 }
                 var p = getURLParameter('p');
-                if (!p) p = 5;
+                if (!p) p = 3;
                 
                 var lorem = new Lorem;
                 lorem.type = Lorem.TEXT;
