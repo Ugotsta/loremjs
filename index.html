@@ -16,9 +16,11 @@
             }
             h1 {
                 font-size: 3em;
+                padding: 0.5em 0;
             }
             p {
                 font-size: 1.25em;
+                padding-bottom: 1.25em;
             }
         </style>
         <script src="lorem.js"></script>
@@ -31,7 +33,7 @@
                     return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null
                 }
                 var p = getURLParameter('p');
-                if (!p) p = 3;
+                if (!p) p = 1;
                 
                 var lorem = new Lorem;
                 lorem.type = Lorem.TEXT;
