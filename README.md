@@ -1,6 +1,6 @@
 ## Lorem.js dummy text generator
 
-Dead simple and super fast front-end dummy text generator forked from and relying on [Lorem.js](https://github.com/f/loremjs).  
+Dead simple and super fast front-end dummy text generator forked from and relying on [Lorem.js](https://github.com/f/loremjs). It's really nothing more than the lorem.js project but with a front-end served using GitHub Pages.
 
 Access here: http://ugotsta.github.io/loremjs/  
 
